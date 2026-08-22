@@ -31,7 +31,11 @@ export const routes: Routes = [
   {
     path: 'mentorias/cadastro',
     loadComponent: () => import('./pages/mentorias/cadastro/cadastro.page').then( m => m.CadastroPage)
+  },  {
+    path: 'comunidade',
+    loadComponent: () => import('./pages/comunidade/comunidade.page').then( m => m.ComunidadePage)
   },
+
 
 
 
